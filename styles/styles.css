@@ -1,0 +1,46 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body{
+    margin-left: 160px ;
+    margin-right: 160px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:116px 74px ;
+
+    background-color:#C6E4D6;
+    border-radius: 24px;
+}
+
+.banner-title{
+    color:#0e0e0e7a ;
+    margin-bottom: 0;
+}
+
+.banner-description{
+    color:#0E0E0E;
+    font-size: 56px;
+    font-weight: bold;
+    width: 622px;
+    margin-top: 0%;
+    
+   
+
+}
+.btn{
+    color: antiquewhite;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px ;
+    
+}
