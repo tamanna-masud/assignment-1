@@ -8,10 +8,12 @@
 }
 
 body{
-    margin-left: 160px ;
+    margin-left: 160px;
     margin-right: 160px;
 }
+
 /* banner styles */
+
 .banner{
     display: flex;
     align-items: center;
@@ -109,21 +111,51 @@ body{
 /* news card styles */
 
 .newscards-container{
-    
     border-radius: 16px;
     padding: 24px;
     margin-bottom: 24px;
 }
 
-.newscard1{padding: 32px;
+.newscard1{
+    display: flex;
+    gap: 32px;
+    padding: 32px;
     border-radius: 16px; 
-    background-color: #FFF7DF;
-    width: 410px;
+    background-color: #FFF7DF; 
     margin-bottom: 10px;
+    
 }
-.newscard2{padding: 32px;
+.newscard2{
+    display: flex;
+    gap: 32px;
+    padding: 32px;
     border-radius: 16px; 
-    background-color: #FFF7DF;
-    width: 410px;
+    background-color: #FFF7DF; 
     margin-bottom: 10px;
+    
+}
+.btn-nc{
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color:#006A50 ;
+    padding: 11px 20px;
+}
+
+.img-st{
+    border-radius: 15px;
+}
+/* dt section styles */
+
+.dt-section{
+    align-items: center;
+
+}
+
+
+.amcard-container{
+display: flex;
+gap: 30px;
 }
