@@ -10,6 +10,8 @@
 body{
     margin-left: 160px;
     margin-right: 160px;
+    background-color: #F1F1F3;
+    
 }
 
 /* banner styles */
@@ -45,7 +47,7 @@ body{
     border-radius: 8px;
     padding: 17px ;
     border: none;
-    
+    font-family: "Fira Sans", serif;
 }
 
 /* cards styles */
@@ -108,6 +110,25 @@ body{
     padding: 11px 20px;
 
 }
+
+/* apj section styles */
+
+.apj-section{
+    border-radius: 15px;
+    border: none;
+    padding: 30px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    background-color:#FFFFFF;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position: 30px 15px;
+
+}
+
+
+
 /* news card styles */
 
 .newscards-container{
@@ -131,7 +152,12 @@ body{
     border-radius: 16px; 
     background-color: #FFF7DF; 
     margin-bottom: 10px;
-    
+}
+.newscard-description{
+    color: cadetblue;
+}
+.newscard-subtitle{
+    color: #C6E4D6;
 }
 .btn-nc{
     color: #FFFFFF;
@@ -167,11 +193,15 @@ margin-top: 35px;
     gap: 25px;
     padding: 10px;
     border-radius: 16px; 
-    background-color: #254a39;
+    background-color: #caf1e4;
     width: 150px;
     height: 75px;
-    
-    
+    font-family: "Fira Sans", serif;
+    border: none;  
+}
+
+.amcard:hover{
+    background-color: #f5af54;
 }
 .amcard4{
     gap: 25px;
@@ -180,20 +210,27 @@ margin-top: 35px;
     border-radius: 16px ;
     width: 150px;
     height: 75px;
+    border: none;
 }
+.amcard4:hover{
+    background-color: #f5af54;
+}
+
 .dt-ib{
     display: flex;
     flex-direction: column;
     
 }
 .input{
-    color:#46454506 ;
+    
     width:1032px ;
     height: 70px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     margin: 32px;
     text-align: center;
-  
+    border: none;
+    border-radius: 10px;
+    font-family: "Fira Sans", serif;
 }
 .dt-ib-btn{
     display: flex;
@@ -203,15 +240,61 @@ margin-top: 35px;
 .btn-dt{
     color:#FFFFFF;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 550;
     padding: 17px 34px;
     background-color: #5490F5;
     border-radius: 15px;
-    width: 151px;
-    height: 70px;
+    width: 190px;
+    height: 64px;
+    font-family: "Fira Sans", serif;
     border: none;
-
-
-
     
+    
+}
+
+
+
+/* newsletter section styles */
+
+
+
+.sn-section{
+    background-color: #81B4FC;
+    text-align: center;
+    padding: 45px;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+.sn-section p{
+    width: 622px;
+    margin-left: 250px;
+}
+
+
+.sn-form{
+padding: 18px;
+border: none;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+width: 600px;
+font-family: "Fira Sans", serif;
+}
+
+.btn-sn{
+    margin-left: -4px;
+    padding: 18px;
+border: none;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+width: 150px;
+background-color: #006A50;
+color: white;
+font-weight: 600;
+font-family: "Fira Sans", serif;
+
+}
+ 
+
+button:hover{
+    background-color: #5b044b;
 }
