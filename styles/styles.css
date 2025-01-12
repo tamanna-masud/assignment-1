@@ -1,10 +1,10 @@
 
 .open-sans-normal{
-  font-family: "Open Sans", serif;
+  font-family: "Fira Sans", serif;
   font-optical-sizing: auto;
   font-weight: 500px;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: "width" 100;
 }
 
 body{
@@ -112,7 +112,6 @@ body{
 
 .newscards-container{
     border-radius: 16px;
-    padding: 24px;
     margin-bottom: 24px;
 }
 
@@ -122,7 +121,7 @@ body{
     padding: 32px;
     border-radius: 16px; 
     background-color: #FFF7DF; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     
 }
 .newscard2{
@@ -150,12 +149,69 @@ body{
 /* dt section styles */
 
 .dt-section{
-    align-items: center;
-
+    text-align: center;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 45px;
 }
-
 
 .amcard-container{
 display: flex;
-gap: 30px;
+justify-content: center;
+gap: 100px;
+
+margin-top: 35px;
+}
+
+.amcard{
+    gap: 25px;
+    padding: 10px;
+    border-radius: 16px; 
+    background-color: #254a39;
+    width: 150px;
+    height: 75px;
+    
+    
+}
+.amcard4{
+    gap: 25px;
+    padding: 10px;
+    background-color: #5490F5;
+    border-radius: 16px ;
+    width: 150px;
+    height: 75px;
+}
+.dt-ib{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input{
+    color:#46454506 ;
+    width:1032px ;
+    height: 70px;
+    background-color: #FFFFFF;
+    margin: 32px;
+    text-align: center;
+  
+}
+.dt-ib-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-dt{
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 17px 34px;
+    background-color: #5490F5;
+    border-radius: 15px;
+    width: 151px;
+    height: 70px;
+    border: none;
+
+
+
+    
 }
